@@ -1,0 +1,33 @@
+    /* h1 jumbotron text of St. Louis, Missouri is centered. */
+    
+    /*paragraph under jumbotron is indented more than the regular text-indent: inherit */
+    
+    .para1 {
+      font-family: 'Lobster', cursive;
+      text-indent: 80px;
+    }
+    /* background image is St. Louis Arch */
+    /* always make sure your background image doesn't hide your text */
+
+    body {
+      background-image: url("http://www.visionsoftravel.org/wp-content/uploads/2015/01/TheGatewayArchSaintLouisMissouri011.jpg");
+    }
+    
+    .image {
+      text-align: center;
+      padding: 15px;
+    }
+    
+    .img-circle img-responsive {
+      list-style-image: none;
+      padding: 15px;
+    }
+    /* class for links for attractions in st louis and top of page */
+    
+    .att {
+      border: solid;
+      border-width: 1px;
+      border-color: #ffffff;
+      font-size: 28px;
+      color: #000000;
+}
